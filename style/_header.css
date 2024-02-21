@@ -1,0 +1,79 @@
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 4.5em;
+}
+
+.nav-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.name-logo{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-titulo)
+}
+
+.list-dad{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    margin-right: 25%;
+}
+
+.list-li{
+    list-style: none;
+    color: var(--cor-texto);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-inputs{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+}
+
+.input-none{
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+
+.input-decoration{
+    background-color: var(--background-color-button);
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1120px){
+    .list-dad{
+        margin-right: 0%;
+        gap: 0.8em;
+    }
+}
+
+@media screen and (max-width: 884px){
+    .list-dad{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 553px){
+    .nav-links{
+        justify-content: center;
+    }
+    .nav-inputs{
+        display: none;
+    }
+}

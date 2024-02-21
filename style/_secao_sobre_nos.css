@@ -1,0 +1,34 @@
+.sobr_me{
+    margin-bottom: 5.5em;
+}
+
+.description-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-top: 5em;
+    text-align: center;
+    margin: 0 2em;
+}
+
+.about_me{
+    color: var(--cor-sobre-min);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.title-h1{
+    color: var(--cor-titulo-2);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.description-text{
+    color: var(--cor-texto);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    width: 45%;
+    line-height: 30px;
+}

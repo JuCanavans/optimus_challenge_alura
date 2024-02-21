@@ -1,0 +1,13 @@
+/*COR-FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --fonte-primaria: "Inter", sans-serif;
+    --cor-titulo: #3A404E;
+    --cor-texto: #667085;
+    --cor-sobre-min:#8E2424;
+    --cor-titulo-2: #101828;
+    --background-color-button: #8E2424;
+    --background-depoimento: #F9FAFB;
+}
+

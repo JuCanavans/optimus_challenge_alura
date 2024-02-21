@@ -1,0 +1,119 @@
+.secao_vagas{
+    margin-top: 8em;
+    width: 100%;
+}
+
+.secao_banner_vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 4em;
+}
+
+.secao_banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+}
+
+.vaga_decoration{
+    background: rgba(142, 36, 36, 0.05);
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cor-sobre-min);
+}
+
+.title_talento{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-titulo-2);
+}
+
+.span_texto{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-texto);
+}
+
+.secao_banner_img{
+    width: 75%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.tipo_vagas{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center
+}
+
+.secao_tipo_vaga{
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-vaga{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5em;
+}
+
+.title-vaga{
+    color: var(--cor-titulo-2);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.vaga_li{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid #EAECF0;
+    padding: 24px 24px 28px 24px;
+    border-radius: 16px;
+    width: 100%; 
+}
+
+.tipo_cargo{
+    color: var(--cor-titulo-2);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.list-valores{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.text-valores{
+    font-size: 16px;
+    font-weight: 500;
+    list-style: none;
+    color: var(--cor-texto);
+}
+
+.list-2{
+    margin: 3em 0;
+}
+
+@media screen and (max-width: 1120px){
+    .list-vaga{
+        align-items: center;
+    }
+    .vaga_li{
+        width: 80%; 
+    }
+    .secao_banner_img{
+        width: 90%;
+    }
+}

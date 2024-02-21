@@ -1,0 +1,16 @@
+@import url("../style/_root.css");
+@import url("../style/_header.css");
+@import url("../style/_secao_sobre_nos.css");
+@import url("../style/_secao_metricas.css");
+@import url("../style/_secao_vagas.css");
+@import url("../style/_secao_depoimento.css");
+@import url("../style/_secao_formulario.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--fonte-primaria);
+}

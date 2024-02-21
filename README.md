@@ -1,6 +1,6 @@
 # <h1 align="center">Optimus | Challenge Alura</h1>
 
-![modelo-sigle](https://github.com/JuCanavans/single/assets/103950621/f157a502-3a6e-4f58-85f7-90a53a2909a6)
+![image](https://github.com/JuCanavans/optimus_challenge_alura/assets/103950621/ea4d52ed-0aaa-4a9d-9a34-bf43f3587b14)
 
 ## 🛠 Technologies Used
 ![html](https://github.com/JuCanavans/carta_de_aniversario/assets/103950621/26d205cf-94be-4681-bb60-0a2f686f62b1)
